@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Hello this is my profile" />
+		<meta property="og:description" content="Hello I'm bxb. You can contact me here" />
+		<meta property="og:title" content="bxb" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="./public/banner.png" />
+		<meta property="og:site_name" content="@bxbs1" />
+		<meta name="keywords" content="bxbs1, bxb, 7 eyes" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="language" content="English" />
+		<meta name="author" content="bxb" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap"
+			rel="stylesheet" />
+		<link rel="icon" href="./public/avatar.png" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			rel="stylesheet"
+			crossorigin />
+		<title>bxb</title>
+	</head>
+	<body oncontextmenu="return true;">
+		<div class="container">
+			<div class="profile-border box-color">
+				<div class="profile box-color">
+					<div class="banner">
+						<img
+							loading="lazy"
+							id="banner-image"
+							src="./public/banner.png"
+							alt="" />
+					</div>
+					<div class="main-header">
+						<div class="image">
+							<div class="avatar">
+								<img
+									loading="lazy"
+									class="box-color"
+									id="avatar-image"
+									alt=""
+									aria-hidden="true"
+									src="./public/avatar.png" />
+								<div class="status box-color tooltip">
+									<img
+										id="status-image"
+										src="./public/status/offline.svg"
+										alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="badges box-color" id="badges">
+							<div class="badges-right">
+								<a class="tooltip" aria-label="Subscriber Gem">
+									<img alt=" " src="./public/badges/gold-gem.png" />
+								</a>
+								<a class="tooltip" aria-label="HypeSquad Bravery">
+									<img alt=" " src="./public/badges/bravery.png" />
+								</a>
+								<a class="tooltip" aria-label="Server Boosting">
+									<img alt=" " src="./public/badges/boost-gem.png" />
+								</a>
+								<a class="tooltip" aria-label="Quest Champion">
+									<img alt=" " src="./public/badges/quest.png" />
+								</a>
+								<a class="tooltip" aria-label="Orb">
+									<img alt=" " src="./public/badges/orb.png" />
+								</a>
+								<a class="tooltip" aria-label="Gifted Nitro">
+									<img alt=" " src="./public/badges/gifting-gift.png" />
+								</a>
+							</div>
+							<div class="badges-left"></div>
+						</div>
+					</div>
+					<div class="card box-color">
+						<div class="name-box">
+							<span class="display-name">bxb</span>
+							<button
+								class="id username"
+								id="textToCopy"
+								aria-label="Click to copy!"
+								onclick="copyToClipboard()">bxbs1</button>
+							<span class="pronouns">New Developer</span>
+							<div class="custom-status"></div>
+						</div>
+						<div class="body">
+							<div class="content">
+								<div class="about-section">
+									<div class="title-body">ABOUT ME</div>
+									<span class="about-me"
+										>Im bxb
+										<div class=""></div>
+									a new developer focusing on many projects like discord bots and more. I enjoy learning phyton and create new projects.</span
+									>
+								</div>
+								<div class="title-body">ROLES</div>
+								<div class="roles-body">
+									<div class="rol black">
+										<i class="fas fa-circle"></i>
+										<span>Owner of •  7 eyes  •</span>
+									</div>
+								</div>
+								<div class="divider social-divider"></div>
+								<div class="title-body">CONNECTIONS</div>
+
+								<div class="socials">
+									<div class="column">
+										<a
+											class="platform"
+											href="https://www.youtube.com/@bxbs11"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/youtube.svg" />
+											<div class="text-base platform-username">
+												bxb
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://www.tiktok.com/@bxb_s1"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/tiktok.svg" />
+											<div class="text-base platform-username">@bxb_s1</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+									</div>
+									<div class="column">
+										<a
+											class="platform"
+											href="https://github.com/bxbs11"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/github.svg" />
+											<div class="text-base platform-username">
+												bxbs11
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://discord.gg/7eyes"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/discord.svg" />
+											<div class="text-base platform-username">
+												Discord Server
+											</div>
+											<div class="">
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./config.js"></script>
+		<script async src="./scripts/script.js"></script>
+		<script async src="./scripts/live-profile.js"></script>
+	</body>
+</html>
