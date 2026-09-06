@@ -506,8 +506,6 @@ a:hover.tooltip::after {
 
 .roles-body .rol {
   background: linear-gradient(to bottom, hsl(var(--primary-h-top), var(--primary-s-top), var(--primary-l-top)), hsl(var(--primary-h-bottom), var(--primary-s-bottom), var(--primary-l-bottom)));
-  --primary-l-top: 25%;
-  --primary-l-bottom: 14%;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -525,6 +523,10 @@ a:hover.tooltip::after {
   color: var(--text-color);
   margin-left: 4px;
   margin-right: 4px
+}
+
+.roles-body .rol i {
+  color: hsl(222deg 62% 58%)
 }
 
 .social-divider {
